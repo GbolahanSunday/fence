@@ -1,0 +1,204 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background: grey;
+	color: #ffffff;
+	position: sticky;
+	top:0; 
+}
+
+header nav li a{
+	color: #ffffff;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+header .highlight{
+	color: sandybrown;
+	font-weight: bold;
+}
+
+header nav li{
+	display: inline;
+	float: left;
+	padding: 20px;
+
+}
+
+header #branding{
+	float: left;
+}
+header nav{
+	float: right;
+}
+
+#showcase{
+	min-height: 400px;
+	background:url(animation1.jpg) no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+}
+#showcase .container{
+	text-align: center;
+	padding-top: 100px;
+	line-height: 15px;
+}
+
+#showcase .container p #bold{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#showcase .container h1{
+	font-size: 30px;
+	font-weight: bolder;
+}
+#showcase hr{
+	width: 20%;
+	overflow: hidden;
+}
+
+#boxes .container{
+	background: #fff;
+	border-top: 2px sandybrown solid;
+	position: relative;
+	top: -20px;
+	c
+
+}
+#boxes .container #box{
+	width: 1000px;
+	height: 250px;
+	margin: 10px auto;
+	border-radius: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px lightgrey solid;
+}
+
+#boxes .container #box .button_1{
+	background: grey;
+	color: white;
+	border: none;
+	padding: 5px;
+}
+
+#boxes .container #box2{
+	width: 1000px;
+	height: 250px;
+	margin: 15px auto;
+	border-radius: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px lightgrey solid;
+}
+
+#boxes .container #box2 .button_1{
+	background: grey;
+	color: white;
+	border: none;
+	padding: 5px;
+}
+
+#boxes .container #box2 .dribble{
+	background-image: url(download.jpg) 0-200px;
+	size: 200px; 
+}
+
+#boxes .container #box3{
+	background: grey;
+	color: #ffffff;
+	padding: 0 40px 40px 40px;
+	width: 1000px;
+	height: 250px;
+	margin: 0px auto;
+	border-radius: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 2px sandybrown solid;
+
+}
+
+#container #box3{
+	background: grey;
+	color: #ffffff;
+	padding: -300px 0 300px 0;
+}
+*/
+header {
+	width: 100%
+	height:80px;
+	padding: 10px 40px 10px 40px;
+	background: grey;
+	color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#branding2 {
+	flex-basis: 40%;
+}
+
+nav {
+	flex-basis: 60%;
+	display: flex;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400px;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+
+
+/*
+
+.container #box2 .image{
+	padding: 60px;
+	width: 30%;
+	height: 60px;	
+	background-image: url(images4.jpg);
+}
+
+.container #box2 .dribble{
+	padding: 60px;
+	width: 30%;
+	height: 60px;	
+	background-image: url(images4.jpg);
+}
+
+.container #box2 .image2{
+	padding: 60px;
+	width: 30%;
+	height: 60px;	
+	background-image: url(images4.jpg);
+}
